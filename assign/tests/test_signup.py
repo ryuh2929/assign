@@ -8,6 +8,7 @@ def test_signup(client):
     data = {
         "username": "JIN HO",
         "password": "12341234",
+        "password2": "12341234",
         "nickname": "Mentos"
     }
     
